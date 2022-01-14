@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pruebas">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+                <Spinner
+                    android:id="@+id/spin_esp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/Celeste" />
+
+                <Spinner
+                    android:id="@+id/spin_bac"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50px"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/Azul" />
+
+                <Spinner
+                    android:id="@+id/spin_doc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50px"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/Azul" />
+
+                <Spinner
+                    android:id="@+id/spin_cur"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50px"
+                    android:layout_marginBottom="40dp"
+                    android:backgroundTint="@color/Azul" />
+
+                <Button
+                    android:id="@+id/btn_consultar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btn_fondo_color"
+                    android:backgroundTint="@color/Azul"
+                    android:elevation="5dp"
+                    android:text="Consultar"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    app:backgroundTint="@color/Azul" />
+
+        </LinearLayout>
+
+
+</RelativeLayout>

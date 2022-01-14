@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/inicio_icon"
+            android:title="@string/menu_Inicio" />
+        <item
+            android:id="@+id/nav_estudiantes"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="@string/menu_Estudiantes" />
+        <item
+            android:id="@+id/nav_padres"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="@string/menu_Padres" />
+
+	    <item
+            android:id="@+id/nav_directivos"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="Directivos" />
+
+        <item
+            android:id="@+id/nav_autoevalucion"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="@string/menu_Autoevaluacion" />
+        <item
+            android:id="@+id/nav_coevaluacion"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="@string/menu_Coevaluacion" />
+        <item
+            android:id="@+id/nav_observacion"
+            android:icon="@drawable/evaluacion_icon"
+            android:title="@string/menu_Observacion" />
+        <item
+            android:id="@+id/nav_responder"
+            android:icon="@drawable/resultados"
+            android:title="@string/menu_Responder" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/salir"
+            android:title="@string/menu_Salir" />
+
+    </group>
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_ev"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/small_logo_blanco" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/evname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE DE EVALUACION"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                android:textColor="@color/Azul"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/evid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="evid"
+                android:textSize="1dp"
+                android:textAllCaps="true"
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/evcourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="evcourse"
+                android:textSize="1dp"
+                android:textAllCaps="true"
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/evindex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evaluación #1"
+                android:textSize="1dp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/idImagen"
+        android:layout_marginTop="10dp"
+        android:background="@color/Azul" />
+
+</LinearLayout>

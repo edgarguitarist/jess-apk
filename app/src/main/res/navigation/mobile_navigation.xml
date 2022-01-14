@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.inicio.InicioFragment"
+        android:label="@string/menu_Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_estudiantes"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.estudiantes.EstudiantesFragment"
+        android:label="@string/menu_Estudiantes"
+        tools:layout="@layout/fragment_estudiantes" />
+
+    <fragment
+        android:id="@+id/nav_padres"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.padres.PadresFragment"
+        android:label="@string/menu_Padres"
+        tools:layout="@layout/fragment_padres" />
+    <fragment
+        android:id="@+id/nav_quitar"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.quitar.QuitarFragment"
+        android:label="quitar"
+        tools:layout="@layout/fragment_quitar" />
+    <fragment
+        android:id="@+id/nav_directivos"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.directivos.DirectivosFragment"
+        android:label="@string/menu_Directivos"
+        tools:layout="@layout/fragment_directivos" />
+
+    <fragment
+        android:id="@+id/nav_autoevalucion"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.autoevaluacion.AutoevaluacionFragment"
+        android:label="@string/menu_Autoevaluacion"
+        tools:layout="@layout/fragment_autoevalucion" />
+
+    <fragment
+        android:id="@+id/nav_coevaluacion"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.coevaluacion.CoevaluacionFragment"
+        android:label="@string/menu_Coevaluacion"
+        tools:layout="@layout/fragment_coevaluacion" />
+
+    <fragment
+        android:id="@+id/nav_observacion"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.observacion.ObservacionFragment"
+        android:label="@string/menu_Observacion"
+        tools:layout="@layout/fragment_observacion" />
+
+    <fragment
+        android:id="@+id/nav_responder"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.responder.ResponderFragment"
+        android:label="@string/menu_Responder"
+        tools:layout="@layout/fragment_responder" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.letrasyvida.evaluaciones_letrasyvida.ui.salir.SalirFragment"
+        android:label="@string/menu_Salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>

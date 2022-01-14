@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Evaluaciones - Letras y Vida</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Cerrar menu</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">cabecera del menu</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <string name="menu_Inicio">Inicio</string>
+    <string name="menu_Estudiantes">Evaluación Estudiantes</string>
+    <string name="menu_Padres">Evaluación Padres</string>
+    <string name="menu_Directivos">Evaluación Directivos</string>
+    <string name="menu_Autoevaluacion">Autoevaluación</string>
+    <string name="menu_Coevaluacion">Coevaluación</string>
+    <string name="menu_Observacion">Observación en Clase</string>
+    <string name="menu_Responder">Responder Evaluaciones</string>
+    <string name="menu_Salir">Salir</string>
+    <string name="textop">Texto de Prueba</string>
+</resources>

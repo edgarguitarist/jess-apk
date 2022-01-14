@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.letrasyvida.evaluaciones_letrasyvida" >
+
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/letrasyvida"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/letrasyvida_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.EvaluacionesLetrasYVida.NoActionBar" >
+        </activity>
+        <activity android:name=".consulta"></activity>
+        <activity android:name=".pruebas" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".recovery" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>
